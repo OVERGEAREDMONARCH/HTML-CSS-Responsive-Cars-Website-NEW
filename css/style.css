@@ -13,7 +13,8 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
+    margin:0;
+     padding:0;
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
@@ -523,13 +524,13 @@ section{
     font-size: 1.7rem;
 }
 
-.contact .row{
+.contact-container .contact-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.contact .row .map{
+.contact-container .contact-container .map{
     flex:1 1 42rem;
     width: 100%;
     padding:2rem;
@@ -538,7 +539,7 @@ section{
     border-radius: .5rem;
 }
 
-.contact .row form{
+.contact-container .contact-container form{
     padding:2rem;
     flex:1 1 42rem;
     box-shadow: var(--box-shadow);
@@ -547,13 +548,13 @@ section{
     border-radius: .5rem;
 }
 
-.contact .row form h3{
+.contact-container .contact-container form h3{
     font-size: 3rem;
     color:var(--black);
     padding-bottom: 1rem;
 }
 
-.contact .row form .box{
+.contact-container .contact-container form .box{
     width:100%;
     border-radius: .5rem;
     padding:1rem 1.2rem;
@@ -563,7 +564,7 @@ section{
     margin:.7rem 0;
 }
 
-.contact .row form textarea{
+.contact-container .contact-container form textarea{
     height:15rem;
     resize: none;
 }
