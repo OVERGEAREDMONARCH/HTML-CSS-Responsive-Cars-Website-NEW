@@ -632,26 +632,6 @@ section{
     color:var(--black);
 }
 
-/* footer section styling */
-footer{
-    background: #111;
-    padding: 15px 23px;
-    color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-}
-footer span a{
-    color: #00D1D1;
-    text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
-}
-
 @media (max-width:991px){
 
     html{
